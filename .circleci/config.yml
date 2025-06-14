@@ -24,7 +24,6 @@ jobs:
               --token $VERCEL_TOKEN \
               --confirm \
               --scope $VERCEL_ORG_ID \
-              --project-name $VERCEL_PROJECT_ID
 
 workflows:
   deploy-on-main:
