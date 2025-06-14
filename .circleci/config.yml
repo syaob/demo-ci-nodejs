@@ -22,7 +22,7 @@ jobs:
           command: |
             vercel --prod \
               --token $VERCEL_TOKEN \
-              --confirm \
+              --yes \
               --scope $VERCEL_ORG_ID \
 
 workflows:
